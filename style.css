@@ -1,0 +1,166 @@
+body {
+	margin:0px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:0px;
+	background: radial-gradient( #808080 0%, #B2B2B2 24%, #C3C3C3 85%, #808080 100%); /* W3C */	
+}
+
+h2
+{
+	text-align: center;
+	margin-left: 200px;
+	text-shadow: 2px 2px #73BBFF;
+}
+
+p{
+	color:blue;
+	margin:0px;
+	text-shadow: 2px 2px #73BBFF;
+}
+
+#ancre
+ {
+color: brown;
+}
+
+.rubrique
+{
+	color:yellow;
+}
+
+form
+{
+	margin-left: 200px;
+}
+
+header p {
+	background: -moz-linear-gradient(top, #000000 0%, #828c95 24%, #ccc6c3 41%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, 
+	color-stop(0%,#000000), color-stop(24%,#828c95), color-stop(41%,#ccc6c3), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #000000 0%, #828c95 24%, #ccc6c3 41%, #000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #000000 0%, #828c95 24%, #ccc6c3 41%, #000000 100%); /* Opera 11.10+ */
+	background: linear-gradient( #000000 0%, #828c95 24%, #ccc6c3 55%, #000000 100%); /* W3C */	
+	padding : 25px; 
+	text-align:center;
+	font-size: 30px;
+	font-style:oblique;
+	font-weight:bold;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-shadow: 2px 2px #73BBFF;
+}
+a
+{
+	color:#484848;
+	text-shadow: 1px 2px #73BBFF;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-shadow: 1px 2px #73BBFF;
+	text-decoration: none;
+}	
+nav a
+{
+	background: -moz-linear-gradient(top, #000000 0%, #828c95 24%, #ccc6c3 41%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(24%,#828c95), color-stop(41%,#ccc6c3),   color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #000000 0%, #828c95 24%, #ccc6c3 41%, #000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #000000 0%, #828c95 24%, #ccc6c3 41%, #000000 100%); /* Opera 11.10+ */
+	background: linear-gradient( #000000 0%, #828c95 24%, #ccc6c3 65%, #000000 100%); /* W3C */
+}
+
+nav a:hover
+{
+	background: -moz-linear-gradient(top, #000000 0%, #828c95 24%, #ccc6c3 41%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(24%,#828c95), color-stop(41%,#ccc6c3),   color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #000000 0%, #828c95 24%, #ccc6c3 41%, #000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #000000 0%, #828c95 24%, #ccc6c3 41%, #000000 100%); /* Opera 11.10+ */
+	background: linear-gradient( blue 0%, #73BBFF 24%, #FFFFFF 55%, blue 100%); /* W3C */
+	text-shadow: 1px 2px #73BBFF;
+	text-decoration: none;
+}
+nav a.First
+{
+	margin-top:40px;
+	margin-right:-2px;
+	border:2px solid;
+	padding:10px;
+}
+
+table
+{
+	width :25%;
+	text-align: center;
+	margin-left: 200px;
+}
+td.title
+{
+	text-align: left;
+}
+nav a.Last
+{
+	margin-top:40px;
+	border:2px solid;
+	padding:10px;
+	background-color:#dddddd;
+	border-bottom-Right-radius:2em;
+	margin-left:-2px;
+}
+
+nav a.Other
+{
+	margin-top:40px;
+	border:2px solid;
+	padding:10px;
+	background-color:#dddddd;
+	margin-left:-3px;
+	margin-right:-3px;
+}
+
+p.Valid
+{
+	border-radius : 4px;
+	background-image: url("./images/valid.png");
+	background-repeat : no-repeat;
+	background-color : #B5E61D;
+	padding: 50px;
+	text-align:center;
+	font-size:large; 
+}
+
+p.Warning
+{
+	border-radius : 4px;
+	background-image: url("./images/Warning.png");
+	background-repeat : no-repeat;
+	background-color : #B5E61D;
+	padding: 50px;
+	text-align:center;
+	font-size:large; 
+}
+p.Error
+{
+	border-radius : 4px;
+	background-image: url("./images/Error.png");
+	background-repeat : no-repeat;
+	background-color : #fb9771;
+	padding: 50px;
+	text-align:center;
+	font-size:large; 
+}
+
+div .BandeauGauche 
+{
+	width: 200px;
+	float:left;
+	position:relative;
+	background-color:red;
+	border-right: 1px;
+	margin-bottom:0px;
+	margin-top:0px;
+	background:linear-gradient( #000000 0%, #828c95 24%, #ccc6c3 55%, #ccc6c3 100%); /* W3C */	
+
+}
