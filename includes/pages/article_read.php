@@ -7,16 +7,17 @@ if (isset($_GET["id"]))
 ?>
 <h2>Lecture d'article</h2>
 <?php
-$sql ="SELECT * FROM article WHERE id=".$idArticle;
-// construire un statement
-$statement = $db->query($sql);
 
-if ($article = $statement->fetch())
+$repository = new ArticleRepository($db);
+
+$article = $repository->get($idArticle);
+
+if (!($article == false))
 {
 ?>
-<article id="<?php echo $article["id"] ;?>" >
-	<h1><?php echo $article["title"]; ?></h1>
-	<p><?php echo nl2br($article["content"]); ?></p>
+<article id="<?php echo $article->id; ?>" >
+	<h1><?php echo $article->title; ?></h1>
+	<p><?php echo nl2br($article->content); ?></p>
 </article>	
 <?php
 }

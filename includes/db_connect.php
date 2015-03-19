@@ -7,7 +7,7 @@ $pwd	= "wdv1";
 $dsn	= "mysql:dbname=".$dbname.";host:".$server.";charset=UTF8;" ;
 $db		= new PDO($dsn,$user,$pwd);
 // Définir les requêtes avec une récupération les valeurs en tableaux associatifs 
-$db		->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_ASSOC);
+$db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_ASSOC);
 
 // détruire les autres variables
 unset($server,$dbname,$user,$pwd,$dsn);

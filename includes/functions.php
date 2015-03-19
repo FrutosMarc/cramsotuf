@@ -3,6 +3,11 @@
 	{
 		$_SESSION["messages"][] = array("code" => $code, "Type"=> $type, "lib" => $lib);
 	}
+        /**
+         * DisplayMessage()
+         * 
+         * @return boolean
+         */
 	function DisplayMessage()
 	{
 		$message = false;

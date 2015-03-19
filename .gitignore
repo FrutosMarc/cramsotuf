@@ -1,6 +1,6 @@
-﻿# les fichiers dans extra sont des test au d�but de la formation
+﻿# les fichiers dans extra sont des test au debut de la formation
 extra/
 # Les images n'ont pas etre gitter
 images/
-# NetBean ajoute les répertoires de gestions netbean 
+# NetBean ajoute les repertoires de gestions netbean 
 /nbproject/

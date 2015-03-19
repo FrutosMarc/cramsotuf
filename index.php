@@ -1,14 +1,11 @@
 <?php
-	session_start();
-	require("./includes/db_connect.php");
-	require("./Includes/functions.php");
-	
-	
+	require("./Includes/all.php");		
+
 //	 GESTION DES PAGES 
 	$page = "";
 	$includePage = "" ;
 	$title = "" ;
-	if (isset($_GET["pages"]))
+if (isset($_GET["pages"]))
 	{
 		$page = $_GET["pages"];
 	}
