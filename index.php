@@ -1,5 +1,6 @@
 <?php
 	require("./Includes/all.php");		
+        $articleRepository = new ArticleRepository($db);
 
 //	 GESTION DES PAGES 
 	$page = "";
@@ -26,6 +27,7 @@ if (isset($_GET["pages"]))
 				break;
 			case "article_read":
 				$title = "Lecture d'un article";
+                            
 				$includePage = "/pages/article_read.php";
 				break;
 			case "article_list":
@@ -38,7 +40,6 @@ if (isset($_GET["pages"]))
 				break;
 			case "article_delete":
 				$includePage = "/pages/article_delete.php";
-				$DisplayHTML = false;
 				break;
 			
 			default:

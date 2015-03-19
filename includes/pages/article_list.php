@@ -1,11 +1,7 @@
 
 <?php
-$sql ="SELECT * FROM article";
-// construire un statement
-$statement = $db->query($sql);
-
- $statement->setFetchMode(PDO::FETCH_CLASS,"Article");
-if ($articles = $statement->fetchAll())
+$articles = $articleRepository->getAll(); 
+if ($articles)
 {
 	$nbRows = count($articles);
 	?><h2>Liste d'articles(<?php echo (int)$nbRows ?>)</h2>

@@ -8,11 +8,9 @@ if (isset($_GET["id"]))
 <h2>Lecture d'article</h2>
 <?php
 
-$repository = new ArticleRepository($db);
+$article = $articleRepository->get($idArticle);
 
-$article = $repository->get($idArticle);
-
-if (!($article == false))
+if ($article)
 {
 ?>
 <article id="<?php echo $article->id; ?>" >
