@@ -4,3 +4,4 @@ extra/
 images/
 # NetBean ajoute les repertoires de gestions netbean 
 /nbproject/
+/Extra/

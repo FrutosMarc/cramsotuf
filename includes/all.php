@@ -4,6 +4,8 @@
 	require("./Includes/functions.php");
         require ('./model/Article.php');
         require ('./model/ArticleRepository.php');
+        require ('./model/ArticleController.php');
+        require("./views/View.php");
 /* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
